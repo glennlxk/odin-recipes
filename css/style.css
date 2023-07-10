@@ -1,0 +1,22 @@
+h1, h2 {
+    text-align: center;
+    background-color: pink;
+    border: black solid 3px;
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
+
+div {
+    font-family: Verdana;
+    border: black solid 2px;
+    background-color: aqua  ;
+}
+
+.menu{
+    text-align: left;
+    background-color: white;
+}
+
