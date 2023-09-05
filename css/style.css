@@ -1,22 +1,42 @@
-h1, h2 {
+.recipe-card {;
+    margin: 0;
+    padding: 20px;
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
     text-align: center;
     background-color: pink;
     border: black solid 3px;
+    padding: 0;
+    margin-bottom: 15px;  
+    flex: auto;  
 }
 
-img {
-    height: auto;
-    width: 300px;
-}
-
-div {
-    font-family: Verdana;
-    border: black solid 2px;
-    background-color: aqua  ;
+.section.body {
+    border: none;
 }
 
 .menu{
-    text-align: left;
+    text-align: center;
     background-color: white;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
+.item {
+    flex: 1;
+    margin: 0px;
+    border: black solid 5px;
+    padding:0;
+}
+
+img{ 
+    width: 100%;
+    height: auto;
+}
